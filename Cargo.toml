@@ -1,0 +1,13 @@
+[package]
+name = "opti-map"
+version = "0.1.0"
+authors = ["Pierre Avital <pierre.avital@valeo.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vector-map = "0.5.0"
+
+[features]
+nightly = []
